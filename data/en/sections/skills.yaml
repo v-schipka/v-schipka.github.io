@@ -11,39 +11,46 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
+- name: Markdown
+  logo: /images/sections/skills/markdown.png
+  summary: "I write most documentation in Markdown. Markdown is a markup language for creating formatted text for the web."
+  url: "https://www.markdownguide.org/"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
+- name: LaTeX
+  logo: /images/sections/skills/latex.png
+  summary: "I write scientific documents in LaTeX (MiKTeX). LaTeX is software for typesetting documents with an emphasis on scientific symbols and mathetical formulas. LaTeX works on a WYSIWYM principle."
+  url: "https://www.latex-project.org/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+- name: HelpSmith
+  logo: /images/sections/skills/helpsmith.png
+  summary: "I write software documentation that is included in software as .chm files with HelpSmith. HelpSmith is an authoring tool to create help files, print documents and more."
+  url: "https://www.helpsmith.com/"
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  url: "https://www.docker.com/"
+- name: Microsoft Office
+  logo: /images/sections/skills/msoffice.png
+  summary: "Experienced user of the Microsoft Office Suite and documentation in MS Word. I also have experience with setting up company wide available building blocks for documentation in MS Word."
+  url: "https://www.microsoft.com/en-us/microsoft-365/products-apps-services/"
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  url: "https://prometheus.io/"
+- name: GitHub & GitHub Desktop
+  logo: /images/sections/skills/github.png
+  summary: "Experienced with git-based version control and hosting. Mostly, I use GitHub Desktop. I also have experience in working with GitHub Pages."
 
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  url: "https://git-scm.com/"
-
-- name: C++
+- name: C++ / Matlab
   logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+  summary: "Basic programming skills with C++, Matlab and IDL. My programming skills are highly limited to image processing algorithms, i.e. using the OpenCV image processing library with C++."
+
+- name: Autodesk Inventor (3D CAD)
+  logo: /images/sections/skills/inventor.png
+  summary: "Basic software skills with 3D CAD software (Autodesk Inventor, CATIA V5) to create simple 3D models and 2D technical drawings."
+  url: "https://www.autodesk.com/products/inventor/overview"
+
+- name: Adobe PhotoshopCC
+  logo: /images/sections/skills/photoshop.png
+  summary: "Experienced with basic image editing and cropping to enhance screenshots, create info graphics and UI elements. Other image editting software I use are Paint.NET and Greenshot."
+  url: "https://www.adobe.com/products/photoshop.html"
+
+- name: Adobe InDesign CS5
+  logo: /images/sections/skills/indesign.png
+  summary: "Experienced with layouting and preparing documents for print. My InDesign print history includes posters in multiple formats and sizes, books with glue and stitch binding, business cards and my resume."
+  url: "https://www.adobe.com/products/indesign.html"
+
