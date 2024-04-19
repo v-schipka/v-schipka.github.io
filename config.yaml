@@ -1,6 +1,6 @@
 baseURL: https://hugo-toha.github.io
 
-languageCode: en-us
+#languageCode: en-us
 title: "Valerie's Blog"
 
 # Use Hugo modules to add theme
@@ -18,6 +18,8 @@ module:
     target: static/fonts
 
 # Manage languages
+#defaultContentLanguage: en
+#defaultContentLanguageInSubdir: true
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
   en:
@@ -178,8 +180,8 @@ params:
       on_card: true # enables tags in post cards
 
     # Specify whether to show flag in the language selector. Default is true.
-    flags:
-      enable: true
+    #flags:
+      #enable: true
       # # If you want to use different country flag for a language, specify them here.
       # flagOverwrites:
       #   - languageCode: en
