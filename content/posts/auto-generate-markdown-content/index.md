@@ -12,12 +12,12 @@ tags: ["Microsoft", "Power Automate", "Content Creation"]
 ---
 
 
-In this post I'd like to show you how to use [Microsoft Power Automate](https://www.microsoft.com/en-us/power-platform/products/power-automate) to auto generate markdown content for your MkDocs project.<br>
+In this post I'd like to show you how to use [Microsoft Power Automate](https://www.microsoft.com/en-us/power-platform/products/power-automate) to generate markdown content for your MkDocs project.<br>
 Power Automate is a cloud-based process automation service that can be used to create automated workflows to synchronize and collect data, get notifications, start approvals, and more. 
 
-### Create a Newsfeed from a SharePoint List
+### About this Use Case
 
-There are multiple reasons and use cases for automating content creation.
+There are multiple reasons to automate content creation.
 In our case, we wanted to make it easier for non-developers to publish news in the "Latest News" section of our [HelpCenter](https://helpcenter.theobald-software.com/erpconnect/), see screenshot below.
 <!--
 {{< split 6 6 >}}
@@ -139,7 +139,7 @@ The final newsfeed.md file looks like this:
 </div>
 ```
 
-### How to use the Newsfeed
+### How to use the Generated File
 
 You can use the generated markdown file as a single page dedicated news or you can include the content of the file on other pages.
 
