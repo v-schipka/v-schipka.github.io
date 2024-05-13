@@ -4,7 +4,7 @@ date: 2022-04-20T08:06:25+06:00
 description: Migrating our documentation from Jekyll to MkDocs
 menu:
   sidebar:
-    name: Jekyll to MkDocs
+    name: From Jekyll to MkDocs
     identifier: migration
     weight: 05
 hero: graphics.png
