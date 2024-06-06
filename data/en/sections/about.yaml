@@ -19,7 +19,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a technical writer with 3 years of working experience. I recently introduced a new docs-as-code help system to my company that uses [MkDocs](https://www.mkdocs.org/) and [Material](https://squidfunk.github.io/mkdocs-material/). Sometimes, I work on some fun projects such as writing a blog about my struggles, etc.'
+summary: 'I am a technical writer with 3 years of work experience. My daily work includes docs-as-code content-creation, proofreading, briefing marketing teams and writing technical newsletters. <br>I recently introduced [MkDocs](https://www.mkdocs.org/) and [Material](https://squidfunk.github.io/mkdocs-material/) to my company and set up a new documentation environment for our software products. I am also trying to get more into UX writing and work on some fun projects on the side, such as writing a blog about my struggles.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -68,21 +68,6 @@ resourceLinks:
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
 - type: soft-skill-indicator
-  name: Initiative
-  percentage: 85
-  color: sky
-
-- type: soft-skill-indicator
-  name: Team Work
-  percentage: 80
-  color: yellow
-
-- type: soft-skill-indicator
-  name: Learning New Skills
-  percentage: 90
-  color: orange
-
-- type: soft-skill-indicator
   name: Docs-as-Code
   percentage: 85
   color: blue
@@ -91,6 +76,21 @@ badges:
   name: Software Documentation
   percentage: 90
   color: green
+
+- type: soft-skill-indicator
+  name: Learning New Skills
+  percentage: 90
+  color: orange
+
+- type: soft-skill-indicator
+  name: Initiative
+  percentage: 85
+  color: sky
+
+- type: soft-skill-indicator
+  name: Team Work
+  percentage: 80
+  color: yellow
 
 - type: soft-skill-indicator
   name: Monday Morning
