@@ -69,12 +69,12 @@ resourceLinks:
 badges:
 - type: soft-skill-indicator
   name: Initiative
-  percentage: 80
+  percentage: 85
   color: sky
 
 - type: soft-skill-indicator
   name: Team Work
-  percentage: 85
+  percentage: 80
   color: yellow
 
 - type: soft-skill-indicator
@@ -88,12 +88,12 @@ badges:
   color: blue
 
 - type: soft-skill-indicator
-  name: Monday Morning
-  percentage: 60
+  name: Software Documentation
+  percentage: 90
   color: green
 
 - type: soft-skill-indicator
-  name: Cappuccino Intake
+  name: Monday Morning
   percentage: 100
   color: pink
 

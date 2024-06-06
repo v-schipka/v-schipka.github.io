@@ -1,13 +1,13 @@
 ---
 title: "Integrate a MS Copilot Chatbot with MkDocs"
-date: 2024-05-07T08:06:25+06:00
+date: 2024-06-05T08:06:25+06:00
 description: Integrate a MS Copilot Chatbot with MkDocs
 menu:
   sidebar:
     name: Integrate a Chatbot
     identifier: copilot
     weight: 10
-hero: integrated-chatbot.jpg
+hero: writing.png
 tags: ["Microsoft", "Chatbot"]
 ---
 
@@ -19,7 +19,7 @@ In this post I'd like to show you how to integrate a custom [Microsoft Copilot S
 
 ### About this Approach
 
-You can connect a copilot with a custom canvas that is hosted as a standalone web app in the MkDocs project.
+You can connect to a copilot with a custom canvas that is hosted as a standalone web app in your MkDocs project.
 This option is best if you need to embed a customized iFrame across multiple web pages / documentation pages.
 Note that the depicted example uses the [Material](https://squidfunk.github.io/mkdocs-material/) theme and integrates the chatbot by extending the theme.
 
@@ -27,13 +27,17 @@ This post also covers the following customizations to the chatbot`s look and fee
 
 - change the text displayed in the banner
 - change the color of the banner
-- add a custom chatbot icon
 - add a close button to the banner
-- add a scaler to the banner to resize the chatbot
+- add a scaler to the banner (upper left corner) to resize the chatbot
+- add a button to open the chatbot on multiple documentation pages
 
 {{< split 4 4 4 >}}
-![chatbot](chatbot.png)
+Default Chatbot:
+
+![chatbot](default-chatbot.png)
 ---
+Customized Chatbot:
+
 ![chatbotV2](chatbotV2.png)
 ---
 
@@ -95,7 +99,7 @@ To customize the default chatbot, we connect the copilot with a custom canvas th
     {{ super() }}
 
     <!-- Open Chatbot button -->
-    <button class="btn-clear md-button md-button--primary" title="Open Chatbot" id="open_button" onclick="openChatbot()">
+    <button class="btn-clear md-button" title="Open Chatbot" id="open_button" onclick="openChatbot()">
     <span class="twemoji" style="font-size: 35px";"><div class="fa-beat" style="margin-top: -5px;">{% include ".icons/fontawesome/solid/comments.svg" %} </div></span></button>
 
     <!-- Chatbot Container -->
@@ -131,7 +135,73 @@ Alter this file to better suit your overall design.
 
 #### Change the Text in the Banner
 
+To change the text in the chatbot banner, modify the following lines in the `main.html` file:
+
+```html
+<p style="font-family: inherit; font-size: 16px; color: white; line-height: 20px; position: absolute; left: 15px;">Theo Chatbot</p>
+``` 
 #### Change Color of the Banner
 
-#### Change Chatbot Icon
+To change the color of the chatbot banner, modify the following lines in the `chatbot.css` file:
 
+```css
+#banner{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 52px;
+	background-color: #ED1A33;
+	align-items: center;
+    display: flex;
+}
+```
+
+#### Change Color of the "Close" Button
+
+To change the color of the "Close" button in the chatbot banner, modify the following lines in the `chatbot.css` file:
+
+```css
+#close_button {
+    position: absolute; 
+	right: 10px; 
+	color: white;
+}
+
+#close_button:hover {
+	background-color: #891A33;
+	border-color: #891A33;
+}
+```
+
+#### Change Color of the "Open" Button
+
+To change the color of the "Open" button in the chatbot banner, modify the following lines in the `chatbot.css` file:
+
+```css
+#open_button {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    cursor: pointer;
+	padding: 10px 20px; /* Adjust padding */
+	width: 80px; /* Fixed width for both buttons */
+    height: 80px; /* Adjust height */
+    border-radius: 40px; /* Rounded corners */
+	background-color: white;
+	color: #ED1A33;
+}
+#open_button:hover {
+	background-color: #891A33;
+	border-color: #891A33;
+}
+```
+
+#### Change Icon of the "Open" Button
+
+To change the icon of the "Open" button at the buttom right corner of the page, modify the following lines in the `main.html` file:
+
+```html
+ <span class="twemoji" style="font-size: 35px";"><div class="fa-beat" style="margin-top: -5px;">{% include ".icons/fontawesome/solid/comments.svg" %} </div></span></button>
+```

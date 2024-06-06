@@ -11,7 +11,7 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Markdown
+- name: Markdown + Static Website Generators
   logo: /images/sections/skills/markdown.png
   summary: "I write most documentation in Markdown. Markdown is a markup language for creating formatted text for the web."
   url: "https://www.markdownguide.org/"
@@ -33,7 +33,7 @@ skills:
 
 - name: GitHub & GitHub Desktop
   logo: /images/sections/skills/github.png
-  summary: "Experienced with git-based version control and hosting. Mostly, I use GitHub Desktop. I also have experience in working with GitHub Pages."
+  summary: "Experienced with git-based version control and hosting. This includes GitHub Desktop / Fork and GitHub Pages."
 
 - name: C++ / Matlab
   logo: /images/sections/skills/c++.png

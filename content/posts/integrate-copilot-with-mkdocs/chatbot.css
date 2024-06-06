@@ -27,6 +27,8 @@
 	width: 80px; /* Fixed width for both buttons */
     height: 80px; /* Adjust height */
     border-radius: 40px; /* Rounded corners */
+	background-color: white;
+	color: #ED1A33;
 }
 #open_button:hover {
 	background-color: #891A33;
