@@ -1,0 +1,75 @@
+/* Define the beat animation */
+@keyframes fa-beat {
+	0%, 100% {
+	transform: scale(1);
+	}
+	50% {
+		transform: scale(1.1);
+	}
+}
+		
+/* Apply the animation to the icon */
+.twemoji .fa-beat {
+	animation: fa-beat 1s infinite;
+}
+		
+#chatbot_iframe {
+	border-color: #ED1A33;
+    z-index: 9998; /* Ensure it's above other elements */
+}
+#open_button {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    cursor: pointer;
+	padding: 10px 20px; /* Adjust padding */
+	width: 80px; /* Fixed width for both buttons */
+    height: 80px; /* Adjust height */
+    border-radius: 40px; /* Rounded corners */
+	background-color: white;
+	color: #ED1A33;
+}
+#open_button:hover {
+	background-color: #891A33;
+	border-color: #891A33;
+}
+#container {
+	position: fixed;
+	width: 350px;
+	height: 400px;
+    bottom: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+}
+#banner{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 52px;
+	background-color: #ED1A33;
+	align-items: center;
+    display: flex;
+}
+#resize-handler {
+    z-index: 99999;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 0;
+	height: 0;
+	border-top: 12px solid transparent;
+	border-left: 12px solid white;
+	transform: rotate(90deg);
+	opacity: 0.5;
+    cursor: nwse-resize;
+}
+#close_button {
+    position: absolute; 
+	right: 10px; 
+	color: white;
+}
+#close_button:hover {
+	background-color: #891A33;
+	border-color: #891A33;
+}
