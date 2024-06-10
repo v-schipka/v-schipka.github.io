@@ -12,7 +12,7 @@ tags: ["Jekyll", "MkDocs", "Migration"]
 ---
 
 Our company (or rather I as the technical writer responsible for our documentation) recently decided to say goodbye to our current solution for creating documentation: [Jekyll](https://jekyllrb.com/). 
-Instead, we are now working on moving our existing content to [MkDocs](https://www.mkdocs.org/).
+Instead, we are now working on migrating our existing content to [MkDocs](https://www.mkdocs.org/).
 
 In this post I want to tell you a little bit about the reasons behind this decision.
 
