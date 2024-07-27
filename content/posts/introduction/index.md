@@ -9,7 +9,7 @@ menu:
     weight: 01
 tags: ["Basic"]
 categories: ["Basic"]
-hero: desk.jpg
+hero: graphics.png
 ---
 
 Hi and welcome to my blog, where I post random stuff that I deal with during my work as a technical writer in a software company.

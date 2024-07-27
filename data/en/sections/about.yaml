@@ -19,7 +19,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a technical writer with 3 years of work experience. My daily work includes docs-as-code content-creation, proofreading, briefing marketing teams and writing technical newsletters. <br>I recently introduced [MkDocs](https://www.mkdocs.org/) and [Material](https://squidfunk.github.io/mkdocs-material/) to my company and set up a new documentation environment for our software products. I am also trying to get more into UX writing and work on some fun projects on the side, such as writing a blog about my struggles.'
+summary: 'I am a technical writer with 3 years of work experience. My daily work mainly consists of creating software documentation using a docs-as-code approach. This means, I use the same tools that are used in software development, e.g., Git-based file management, a collaborative review process, and markup languages. I also work with and set up static site generators to host user documentation, knowledge base articles and tutorials.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -78,18 +78,18 @@ badges:
   color: green
 
 - type: soft-skill-indicator
-  name: Learning New Skills
-  percentage: 90
+  name: Knowledge Management
+  percentage: 80
   color: orange
 
 - type: soft-skill-indicator
-  name: Initiative
+  name: Animations & Graphics
   percentage: 85
   color: sky
 
 - type: soft-skill-indicator
-  name: Team Work
-  percentage: 80
+  name: Learning New Skills
+  percentage: 90
   color: yellow
 
 - type: soft-skill-indicator
