@@ -8,7 +8,7 @@ menu:
     identifier: migration
     weight: 05
 hero: graphics.png
-tags: ["Jekyll", "MkDocs", "Migration"]
+tags: ["Jekyll", "MkDocs", "Migration", "Static Site Generators"]
 ---
 
 Our company (or rather I as the technical writer responsible for our documentation) recently decided to say goodbye to our current solution for creating documentation: [Jekyll](https://jekyllrb.com/). 

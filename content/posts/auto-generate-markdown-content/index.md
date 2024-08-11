@@ -8,7 +8,7 @@ menu:
     identifier: content
     weight: 08
 hero: writing.png
-tags: ["Microsoft", "Power Automate", "Content Creation"]
+tags: ["Microsoft", "Power Automate", "Static Site Generators"]
 ---
 
 
