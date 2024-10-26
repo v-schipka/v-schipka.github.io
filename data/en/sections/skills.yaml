@@ -13,7 +13,7 @@ section:
 skills:
 - name: Markdown + Static Site Generators
   logo: /images/sections/skills/markdown.png
-  summary: "Markdown is a markup language for creating formatted text for the web. Nowadays I write most documentation content in Markdown."
+  summary: "Markdown is a markup language for creating formatted text for the web. Nowadays I write most documentation content in Markdown and publish it using static site generators."
   url: "https://www.markdownguide.org/"
 
 - name: LaTeX
