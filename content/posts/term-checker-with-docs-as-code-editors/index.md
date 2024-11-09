@@ -11,7 +11,7 @@ hero: planet.png
 tags: ["Terminology", "Editors", "Checklist"]
 ---
 
-When writing docs-as-code documentation, you're probably using editors like [Visual Studio Code](https://code.visualstudio.com/) or [Notepad++](https://notepad-plus-plus.org/).Personally, I use both of them.
+When writing documentation in a docs-as-code approach, you're probably using editors like [Visual Studio Code](https://code.visualstudio.com/) or [Notepad++](https://notepad-plus-plus.org/). Personally, I use both of them.
 But one thing that I feel is missing in these editors are options to check my terminology.
 In this post I'll show you how to set up a script that runs in the background of these editors to check your text against a simple termbase in realtime.
 
