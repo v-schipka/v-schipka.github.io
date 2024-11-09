@@ -1,5 +1,5 @@
 ---
-title: "Integrate a MS Copilot Chatbot with MkDocs"
+title: "Integrate a Microsoft Copilot Chatbot with MkDocs"
 date: 2024-06-05T08:06:25+06:00
 description: Integrate a MS Copilot Chatbot with MkDocs
 menu:

@@ -1,5 +1,5 @@
 ---
-title: "Generate Markdown Content Using Power Automate"
+title: "Auto-Generate Markdown Content Using Power Automate"
 date: 2024-05-07T08:06:25+06:00
 description: Generate Markdown Content Using Power Automate
 menu:
