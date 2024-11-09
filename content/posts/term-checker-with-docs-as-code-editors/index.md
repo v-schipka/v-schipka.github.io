@@ -13,7 +13,7 @@ tags: ["Terminology", "Editors", "Checklist"]
 
 When writing documentation in a docs-as-code approach, you're probably using editors like [Visual Studio Code](https://code.visualstudio.com/) or [Notepad++](https://notepad-plus-plus.org/). Personally, I use both of them.
 But one thing that I feel is missing in these editors are options to check my terminology.
-In this post I'll show you how to set up a script that runs in the background of these editors to check your text against a simple termbase in realtime.
+So, in this post I'll show you how to set up a script that runs in the background of these editors to check your text against a simple termbase in realtime.
 
 ### About this Use Case
 
@@ -125,7 +125,7 @@ Example:
 ![vs-code-test](vs-code-test.png)
 
 {{< alert type="info" >}}
-Note that most [rules](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint#rules) of the Markdownlint extension are enabled by default. They cause similar highlights in your markdown text. You can disable rules via **File > Preferences > Settings > Extensions > markdownlint > Edit in settings.json**. In the settings.json file, add the rules you want to diable. <br>
+Note that most [rules](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint#rules) of the Markdownlint extension are enabled by default. This causes similar highlights in your markdown text. You can disable rules via **File > Preferences > Settings > Extensions > markdownlint > Edit in settings.json**. In the settings.json file, add the rules you want to diable. <br>
 Example:
 
 ``` json
