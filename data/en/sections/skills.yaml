@@ -19,7 +19,7 @@ skills:
 
 - name: LaTeX
   logo: /images/sections/skills/latex.png
-  summary: "LaTeX is software for typesetting documents with an emphasis on scientific symbols and mathetical formulas. I used to write scientific documents in LaTeX (MiKTeX)."
+  summary: "LaTeX is software for typesetting documents with an emphasis on scientific symbols and mathetical formulas. I used to write scientific documents and lab reports in LaTeX (MiKTeX)."
   url: "https://www.latex-project.org/"
 
 - name: Microsoft Office
@@ -29,16 +29,16 @@ skills:
 
 - name: Git
   logo: /images/sections/skills/github.png
-  summary: "I have experience with git-based version control and hosting. This includes GitHub Pages and GUI Git clients like GitHub Desktop and Fork."
+  summary: "I have experience with git-based version control and hosting. This includes GitHub Pages and git clients like GitHub Desktop and Fork."
 
 - name: HelpSmith
   logo: /images/sections/skills/helpsmith.png
-  summary: "HelpSmith is an authoring tool to create help files, print documents and more. I have basic knowledge in using HelpSmith to create software documentation that is part of a software as an .chm file."
+  summary: "HelpSmith is an authoring tool to create help files, print documents and more. I have basic knowledge in using HelpSmith to create software documentation that is delivered as part of a software as a .chm file."
   url: "https://www.helpsmith.com/"
 
 - name: C++ / Matlab
   logo: /images/sections/skills/c++.png
-  summary: "While rusty, I still have some basic programming skills with C++, Matlab and IDL. My programming skills are highly limited to image processing algorithms."
+  summary: "While rusty, I still have some basic programming skills with C++, Matlab and IDL. However, my programming skills are highly limited to image processing algorithms."
 
 - name: Autodesk Inventor (3D CAD)
   logo: /images/sections/skills/inventor.png
