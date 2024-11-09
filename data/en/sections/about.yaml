@@ -19,7 +19,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a technical writer with 3 years of work experience. My daily work mainly consists of creating software documentation using a docs-as-code approach. This means, I use the same tools that are used in software development, e.g., Git-based file management, a collaborative review process, and markup languages. I also work with and set up static site generators to host user documentation, knowledge base articles and tutorials.'
+summary: 'I am a technical writer with 3 years of work experience. My daily work mainly consists of creating software documentation using a docs-as-code approach. This means, I use a git-based file management, collaborative review processes, and markup languages. I also work with and set up static site generators to host user documentation, knowledge base articles and tutorials.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
