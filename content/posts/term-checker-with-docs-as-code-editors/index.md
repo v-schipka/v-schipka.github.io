@@ -8,7 +8,7 @@ menu:
     identifier: termcheck
     weight: 14
 hero: planet.png
-tags: ["Terminology", "Editors", "Static Site Generators"]
+tags: ["Terminology", "Editors", "Checklist"]
 ---
 
 When writing docs-as-code documentation, you're probably using editors like [Visual Studio Code](https://code.visualstudio.com/) or [Notepad++](https://notepad-plus-plus.org/).Personally, I use both of them.
