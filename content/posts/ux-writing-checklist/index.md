@@ -13,9 +13,9 @@ tags: ["UX Writing", "Checklist"]
 
 UX Writing refers to text in user interfaces that explains what features do, and tells a user what action will occur by interacting with that element.
 
-Lately I've been interested in UX Writing (probably because the UI texts in the products I usually document tend to be... improvable). So a few weeks ago I attended a workshop where I learned some basics and where the attendees were encouraged to create their own checklist for UX Writing as a takeaway.
+Lately I've been very interested in UX Writing (probably because the UI texts in the products I usually document tend to be... improvable). So a few weeks ago I attended a workshop where I learned some basics and where the attendees were encouraged to create their own checklist for UX Writing as a takeaway.
 
-When googling for UX Writing Checklist, hcances are that you will find a lot of results, with most of them sharing the same principles. So while the checklist presented in this post was created with the products that *I* use in my daily life in mind, the underlying principles are widely applicable.
+When googling "UX Writing Checklist", chances are that you will find a lot of results, with most of them sharing the same principles. So while the checklist presented in this post was created with the products that *I* use in my daily life in mind, the underlying principles are widely applicable.
 
 {{< alert type="info" >}}
 For German speakers, it might also be useful to take a look at the [German UPA style guide for UX Writing](https://germanupa.de/sites/default/files/2024-01/leitfaden_ux-writing_heuristiken_v1.01_0.pdf).
