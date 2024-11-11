@@ -148,7 +148,7 @@ a. Open Notepad++.<br>
 b. Go to **Plugins > Plugins Admin**.<br>
 c. Look up *PythonScript* and install it.
 2. Restart Notepad++.
-3. Open the following file with administrator rights: `C:\Program Files\Notepad++\plugins\PythonScript\scripts\startup.py`.
+3. Open the following file with administrator rights: <br>`C:\Program Files\Notepad++\plugins\PythonScript\scripts\startup.py`.
 4. Paste the following code into the startup.py file.
 
     ```python
