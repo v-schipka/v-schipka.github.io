@@ -115,7 +115,7 @@ Follow the steps below to make Visual Studio Code check your terminology in real
 5. Save the file and open Visual Studio Code.
 6. Navigate to **File > Preferences > Settings** and scroll down to the settings of your lint extension.<br>
 ![vs-code-custom-rule](vs-code-custom-rule.png)
-7. Enter the path to the java script of the new custom rule, e.g., `C:\Users\AppData\Local\Programs\Microsoft VS Code\custom-rules\term-checker.js`
+7. Enter the path to the java script of the new custom rule, e.g. <br>`C:\Users\AppData\Local\Programs\Microsoft VS Code\custom-rules\term-checker.js`
 8. Open a markdown file in Visual Studio Code and test the rule.
 
 The script now runs in the background and checks the current document against the termbase.json file for unpermitted terms.
@@ -148,7 +148,7 @@ a. Open Notepad++.<br>
 b. Go to **Plugins > Plugins Admin**.<br>
 c. Look up *PythonScript* and install it.
 2. Restart Notepad++.
-3. Open the following file with administrator rights: `C:\Program Files\Notepad++\plugins\PythonScript\scripts\startup.py`.
+3. Open the following file with administrator rights: <br>`C:\Program Files\Notepad++\plugins\PythonScript\scripts\startup.py`.
 4. Paste the following code into the startup.py file.
 
     ```python
