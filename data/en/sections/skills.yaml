@@ -36,9 +36,9 @@ skills:
   summary: "HelpSmith is an authoring tool to create help files, print documents and more. I have basic knowledge in using HelpSmith to create software documentation that is delivered as part of a software as a .chm file."
   url: "https://www.helpsmith.com/"
 
-- name: C++ / Matlab
-  logo: /images/sections/skills/c++.png
-  summary: "While rusty, I still have some basic programming skills with C++, Matlab and IDL. However, my programming skills are highly limited to image processing algorithms."
+- name: Camtasia
+  logo: /images/sections/skills/camtasia.png
+  summary: "Lately I've been getting into Camtasia to create tutorials and onboarding videos for publication on YouTube, as well as short animations to embed into our web documentation."
 
 - name: Autodesk Inventor (3D CAD)
   logo: /images/sections/skills/inventor.png
