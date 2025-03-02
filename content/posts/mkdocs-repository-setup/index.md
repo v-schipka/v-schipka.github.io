@@ -64,13 +64,15 @@ To make the `shared-assets` folder vailable in the `/docs` folder of my subproje
 A symbolic link is a file that points to a target file or a target directory and that exists independently of its target.
 If a symbolic link is deleted, its target remains unaffected.
 
+{{< alert type="info" >}} 
+To reduce the size of the final build, make sure to use the [mkdocs-exclude-unused-files](https://github.com/JonasDoesThings/mkdocs-exclude-unused-files) plugin in your mkdocs.yml files.
+{{< /alert >}}
+
 An alternative approach to ahre assets would be to use git [submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
 
 ### Create Symlinks in Windows
 
-{{< alert type="info" >}} 
 To use symlinks on Windows, you need to [activate the Developer Mode](https://learn.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development) in your Windows Settings.
-{{< /alert >}}
 
 1. Open the Windows command prompt as an administrator.
 2. Navigate to one of the product documentation folders. Example:<br>
@@ -188,14 +190,15 @@ The screenshot below shows XYZ of {{ productName }}.
 ![image](../../shared-assets/images/{{ imagePrefix }}_define-xyz.png){:class="img-responsive"}
 ```
 
-**Tip:** You can also build more complex conditions in your text snippets using html and metadata from the front matter of your markdown files.
+You can even build more complex conditions in your text snippets using html and metadata from the front matter of your markdown files.
 Example:
+
 ``` html
 {% if page.meta.module == 'table' %}
 This content is only displayed on pages that use the following meta tag in the front matter.
 `module: table`
 {% else %}
-This content is only displayed on pages that do **not** use the meta tag `table` in the front matter.
+This content is only displayed on pages that do **not** use the meta tag `module: table` in the front matter.
 {% endif %}
 ```
 
