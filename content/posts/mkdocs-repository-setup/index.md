@@ -7,7 +7,7 @@ menu:
     name: Repository Structure
     identifier: repo
     weight: 16
-hero: winter-coffee.jpg
+hero: pin-board.jpg
 tags: ["MkDocs", "Repository", "Static Site Generators"]
 ---
 
