@@ -100,8 +100,3 @@ The feedback from colleagues and customers so far has been positive.
 
 The plan is to migrate all products until the end of the year (2024).
 
-#### Appendix
-
-For thos interested: here are some slides of the presentation I used when pitching MkDocs to my team leader:
-
-{{< embed-pdf src="/files/MkDocs-Material.pdf" >}}
