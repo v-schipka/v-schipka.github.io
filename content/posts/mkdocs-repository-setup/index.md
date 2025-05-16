@@ -11,15 +11,14 @@ hero: pin-board.jpg
 tags: ["MkDocs", "Repository", "Static Site Generators"]
 ---
 
-In this post I'd like to show you how I set up multiple product documentations in a single gitHub repository.
-This post covers the following points:
-- Set up a single repository that contains multiple product documentations
-- Set up an assets folder that is available for all products (includes images, files and text snippets)
-- Extra: use variables to switch between assets depending on the product
-- Extra: create a central batch file that can serve single or multiple product documentations simultaneuously
+In this post, I’ll walk you through how I set up multiple product documentations within a single GitHub repository. Here’s what I’ll cover:
 
-Note that the approach I use in this post is just one way of setting up a multiple projects repository.
-There are alternative approaches available.
+- Creating a single repository to host multiple product documentations
+- Setting up a shared assets folder (for images, files, and text snippets)
+- Optional: Using variables to switch assets based on the selected product
+- Optional: Creating a central batch file to serve one or more product documentations at once
+
+Keep in mind that this is just one approach to managing multiple projects in a single repository—other methods may suit different needs.
 
 ## About this Use Case
 Our company offers multiple products that share a lot of similar software modules.
