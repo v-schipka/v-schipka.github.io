@@ -19,7 +19,7 @@ designation: Technical Writer
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'As a technical writer with 4 years of work experience, my daily work mainly consists of creating software documentation using a docs-as-code approach. This means, I use a git-based versioning syste,, collaborative review processes, and markup languages. I also work with and set up static site generators to host user documentation, knowledge base articles and tutorials.'
+summary: 'I’m a technical writer with four years of experience specializing in software documentation using a docs-as-code approach. My work involves version control with Git, collaborative review workflows, and writing in markup languages. I also configure and maintain static site generators to publish user documentation, knowledge base articles, and tutorials.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
