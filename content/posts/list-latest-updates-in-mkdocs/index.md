@@ -7,7 +7,7 @@ menu:
     name: List Recent Updates in MkDocs
     identifier: updates
     weight: 24
-hero: papers.jpg
+hero: hero.png
 tags: ["MkDocs"]
 ---
 

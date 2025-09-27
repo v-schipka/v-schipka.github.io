@@ -1,5 +1,5 @@
 ---
-title: "Custom Ordered List Styles for Linear Workflows"
+title: "Custom List Style for Linear Workflows"
 date: 2025-03-30T08:08:45+06:00
 description: How to style ordered lists
 menu:

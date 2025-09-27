@@ -7,7 +7,7 @@ menu:
     name: Structured Data in MkDocs
     identifier: schema
     weight: 22
-hero: papers.jpg
+hero: hero.png
 tags: ["MkDocs", "Structured Data"]
 ---
 
