@@ -7,7 +7,7 @@ menu:
     name: Terminology Checks
     identifier: termcheck
     weight: 14
-hero: planet.png
+hero: hero.png
 tags: ["Terminology", "Editors", "Checklist"]
 ---
 

@@ -72,4 +72,3 @@ If you already have a documentation project, you can use the command `mkdocs get
 Alternatively, you can use the command `pip freeze > requirements.txt` to write a list of all installed Python packages on your machine to a `requirements.txt` file - including their version number.
 You can then activate your virtual environment and install all packages using `pip install -r requirements.txt`.
 {{< /alert >}}
-

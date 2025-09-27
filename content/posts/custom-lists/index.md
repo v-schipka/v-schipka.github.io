@@ -7,7 +7,7 @@ menu:
     name: Custom List Style
     identifier: list
     weight: 20
-hero: hero.png
+hero: hero1.png
 tags: ["MkDocs", "Custom Styling"]
 ---
 

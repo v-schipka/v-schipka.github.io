@@ -7,7 +7,7 @@ menu:
     name: UX Writing Checklist
     identifier: uxchecklist
     weight: 10
-hero: hero.png
+hero: hero1.png
 tags: ["UX Writing", "Checklist"]
 ---
 
