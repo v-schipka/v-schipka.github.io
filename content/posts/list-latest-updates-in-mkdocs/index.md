@@ -14,6 +14,7 @@ tags: ["MkDocs"]
 When maintaining documentation with MkDocs, it can be helpful to give readers a quick overview of what’s been updated recently. There are a few ways to convey this kind of information, like:
 - Adding revision dates to the bottom of individual pages using the [`mkdocs-git-revision-date-localized-plugin`](https://timvink.github.io/mkdocs-git-revision-date-localized-plugin/)
 - Displaying a page status (e.g. "draft", "new", "updated") next to the page title in the navigation via the [`status` feature of the Material theme](https://squidfunk.github.io/mkdocs-material/reference/#setting-the-page-status)
+- Adding a table containing git commit information using the [mkdocs-git-latest-changes-plugin](https://github.com/tombreit/mkdocs-git-latest-changes-plugin).
 
 However, both of these methods require the user to either open the page or scroll through the navigation to discover what's new.
 That’s why I wanted to go a step further and display a list of the five most recently modified pages directly on my landing page—automatically generated during the build process. This is what I was going for:
