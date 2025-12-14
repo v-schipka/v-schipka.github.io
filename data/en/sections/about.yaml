@@ -60,8 +60,8 @@ summary: 'I’m a technical writer with four years of experience specializing in
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
-- title: "My Resume (German only)"
-  url: "files/resume.pdf"
+- title: "My Personal Knowledge Base"
+  url: "https://valeries-tech-writer-garden.vercel.app/"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
